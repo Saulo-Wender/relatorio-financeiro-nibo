@@ -443,8 +443,7 @@ Maior fornecedor: {maior_fornecedor}
 📅 *A PAGAR (Esta Semana)*
 Total: {formatar_moeda_br(total_apagar)}
 Boletos a vencer: {len(data['apagar'])}
-
-📄 *PDF detalhado disponível.*"""
+"""
             st.text_area("Copiar Mensagem:", value=msg, height=250)
 
 else:
